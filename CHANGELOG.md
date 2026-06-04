@@ -1,5 +1,34 @@
 # Changelog
 
+## v1.1.6 — June 3, 2026
+
+### New Features
+
+- **Kanban: group tasks by custom property** — use the new "Group by:" menu in the Kanban toolbar to organize your board by status, group, or any custom field you've added to your tasks. Columns are created automatically based on the values in your tasks.
+- **Kanban: column layouts are saved per grouping** — when you switch how your board is grouped, your previous column arrangement (names, colors, order) is saved and restored when you switch back.
+- **Backlog panel: search, filter, and sort** — the Backlog side panel now has the same tools as the Unscheduled panel: a search bar, filters for status, priority, and task type, group filtering, group-by sections, and a sort control.
+- **Skipped tasks shown in red on the activity heatmap** — recurring tasks marked as skipped now appear in red on the heatmap so they stand out from completed ones.
+
+### Improvements
+
+- **Kanban: tasks stay on the right board** — tasks are now always assigned to a board by their board ID, so grouping by a custom field no longer accidentally pulls in tasks from other boards.
+- **Kanban dropdowns always open downward** — the board selector, sort, and "Group by:" menus now reliably open below the toolbar no matter where the panel is docked in your workspace.
+- **Task status options updated** — when editing a task, the status dropdown now shows the full set of options: Open, In Progress, Complete, and Skip.
+- **"Group by:" moved to the left of "Sort:" in the Kanban toolbar** — the toolbar order now reads left to right in the order you'd typically use the controls.
+- **"View Activity Log" removed from the status bar menu** — cleaned up a menu item that wasn't useful.
+
+### Bug Fixes
+
+- **Archived tasks no longer create duplicate files** — completing a task and archiving it no longer left behind a second copy of the file in the original location.
+- **Converting a note to a task now uses the note's filename as the title** — previously, notes without an explicit title field were converted with the name "Untitled."
+- **Notes moved into the task folder are fully set up automatically** — when you move a vault note into your task folder, it is now immediately given all the required task fields; previously some fields were only filled in after manually opening and saving the task.
+- **Kanban display settings panel no longer closes when you use it** — toggling display options or changing the board background no longer dismisses the settings popup.
+- **Kanban quick-add now works correctly** — pressing Enter in the "Add Quick Task" bar creates the task and places it in the right column.
+- **Kanban cards can show a status badge** — when grouping by something other than status, you can turn on a "Status" option in display settings to show each task's status on its card.
+- **Kanban remembers which board you were on** — reopening the Kanban view or restarting Obsidian now returns you to the last board you had open.
+- **Checkboxes no longer appear on unrelated notes** — a task checkbox was incorrectly showing up on any list item in your vault that contained a link; it now only appears on links to actual task files.
+- **Calendar week numbers now match Google Calendar and Apple Calendar** — week numbers shown in the month grid and the navigation header now always follow the international standard (ISO 8601), regardless of whether your calendar week starts on Sunday or Monday. Previously, Sunday-start mode used a different counting method that didn't match other calendar apps.
+- 
 ## v1.1.0 - 2026-05-31
 
 ### Added
