@@ -4,7 +4,13 @@
 
 ### New Features
 
-- **Kanban: group tasks by custom property** — use the new "Group by:" menu in the Kanban toolbar to organize your board by status, group, or any custom field you've added to your tasks. Columns are created automatically based on the values in your tasks.
+- **Kanban: group tasks by custom properties** — use the new "Group by:" menu in the Kanban toolbar to organize your board by status, group, or any custom property you've added to your tasks front matter. Columns are created automatically based on the values in the property of tasks on the board. Only supports property type "text".
+- **Kanban quick-add now works correctly** — pressing Enter in the "Add Quick Task" bar creates the task and places it in the right column.
+- **Kanban cards can show a status badge** — when grouping by something other than status, you can turn on a "Status" option in display settings to show each task's status on its card.
+- **Kanban remembers which board you were on** — reopening the Kanban view or restarting Obsidian now returns you to the last board you had open.
+- **Right-click to remove tasks from board** — remove tasks from board easily by right clicking and choosing remove from board.
+- **Auto-archive completed & skipped tasks** — you can enabled auto-archive in the settings to archive completed tasks. Manually archive old completed tasks.
+- **Tasknotes & Notes conversion** — copying tasks created by the Tasknotes plugin into the Task Manager folder will convert them. Notes moved into the configured Task folder will also be converted properly into a task.
 - **Kanban: column layouts are saved per grouping** — when you switch how your board is grouped, your previous column arrangement (names, colors, order) is saved and restored when you switch back.
 - **Backlog panel: search, filter, and sort** — the Backlog side panel now has the same tools as the Unscheduled panel: a search bar, filters for status, priority, and task type, group filtering, group-by sections, and a sort control.
 - **Skipped tasks shown in red on the activity heatmap** — recurring tasks marked as skipped now appear in red on the heatmap so they stand out from completed ones.
