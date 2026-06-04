@@ -4,7 +4,9 @@ Obsidian Task Manager Plugin
 
 ![Obsidian Task Manager](./images/obsidian-task-manager-plugin.png)
 
-[![BuyMeACoffee](./image/bmc-button.png)](buymeacoffee.com/antoneheyward)
+<a href="https://buymeacoffee.com/antoneheyward">
+  <img src="images/bmc-button.png" alt="Alt Text" width="200">
+</a>
 
 Manage Tasks in Obsidian with ease and integrate with Google Calendar for full task and event management. Keep your tasks and events local and private, but sync them to your Google Calendar for easy access and notifications. Your tasks and events are synced in real-time.
 
