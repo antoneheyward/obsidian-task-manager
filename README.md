@@ -39,3 +39,6 @@ Step 2: Install a Obsidian Task Manager Plugin
 [![Task Management in Obsidian](https://img.youtube.com/vi/qficoW5vVyw/maxresdefault.jpg)](https://youtu.be/qficoW5vVyw)
 
 [![Obsidian Task Manager - Public Release and New Updates!](https://img.youtube.com/vi/wkZi8BnoDZ0/maxresdefault.jpg)](https://youtu.be/wkZi8BnoDZ0)
+
+## License
+All rights reserved. The software is provided as-is with no liabilities assumed.
