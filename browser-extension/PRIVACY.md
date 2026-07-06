@@ -19,7 +19,7 @@ email). Specifically:
 - **Current tab title and URL** — read when the user chooses to turn the current page into a
   task, so the page title can pre-fill the task and the page URL can be saved as the task's
   source link.
-- **Selected text** — read when the user chooses "Create Obsidian task from selection," so the
+- **Selected text** — read when the user chooses "Create task in Obsidian from selection," so the
   highlighted text becomes the task.
 - **Open email subject and sender (Gmail only, on mail.google.com)** — read when the user
   clicks the extension's "OTM" button inside an opened email, so the subject becomes the task
